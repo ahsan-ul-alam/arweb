@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    background: url('../images/hero_bg2.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background: #133726;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: ease-in-out .3s ;
+    height: fit-content;
+    z-index: 9999999;
+}
+
+.menuArea a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 6px 9px;
+    color: #ffffff;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2px 5px;
+}
+.menuArea a:hover{
+    background: #fff;
+    color: #c80e1d;
+}
+.social i{
+    color: #fff;
+}
+.logo{
+    height: 60px;
+}
+
+/* hero start here  */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 200px;
+    height: 90vh;
+}
+
+.left p{
+    font-size: 42px;
+    color: #222222;
+    font-weight: bold;
+    text-shadow: 1px  1px #133726;
+    margin-bottom: 10px;
+}
+/* main start here  */
+.card-area{
+    margin-top: 10px;
+}
+.card-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+.card{
+    margin: 5px 7px;
+}
+
+
+
+
+/* additional */
+.heading{
+    text-transform: uppercase;
+    color: #c80e1d;
+}
+.name{
+    font-size: 62px;
+    font-weight: bold;
+    color: #0c9831;
+    text-shadow: -2px 0px 6px rgba(243,33,33,0.74);
+}
+.video{
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+}
+.btns{
+    padding: 8px 18px !important;
+    font-size: 22px ;
+    margin: 5px 4px 5px 0 !important;
+    text-decoration: none;
+    border: 2px solid #c80e1d !important;
+    color: #c80e1d !important;
+    border-radius: 5px;
+    font-weight: bold;
+    background: transparent;
+    transition: ease-in-out .4s;
+}
+.btns:hover{
+    background:#c80e1d ;
+    color: #fff !important;
+}
+.divider{
+    width: 250px;
+    border-bottom: 10px double #114005 ;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.card-img-top{
+    height: 170px;
+}
+
+.sticky{
+    padding: 8px 100px;
+    background: #c80e1d !important;
+    color: #073112 !important;
+}
+.l2m{
+    margin-left: 39% !important;
+}
+#tabs ul li a{
+    color: #fbfbfb !important;
+}
+.ui-tabs-anchor{
+    background: #c80e1d;
+    color: #fff;
+    text-align: center;
+}
+.fa-bars{
+    font-size: 28px;
+    color: #fff;
+    display: none !important;
+}
+.mob-nav{
+    display: flex;
+    align-items: center;
+}
+.Progress{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 2px;
+}
+.count{
+    background: #c80e1d;
+}
+.box{
+    height: 150px;
+    width: 170px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 5px ;
+}
